@@ -1,4 +1,4 @@
-# Honukai theme and colors for Oh My Zsh and iTerm
+# Honukai theme and colors for Oh My ZSH and iTerm
 
 ![](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.png)
 
