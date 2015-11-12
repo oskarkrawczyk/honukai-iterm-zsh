@@ -2,6 +2,8 @@
 
 ![](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.png)
 
+[See how it looks with blur and transparency](https://v.usetapes.com/SDGzCBkHh4) (video).
+
 ## Installation
 
 ### Theme
