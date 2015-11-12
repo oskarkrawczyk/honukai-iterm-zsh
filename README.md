@@ -30,7 +30,6 @@ There's a bunch of settings you might want to change in your profile in order to
 **Font**
 
 - Change to **[12pt Fira Mono Medium](https://www.google.com/fonts/download?kit=fYE28jhsC94xTNRkQgmvA1tkqrIMaAZWyLYEoB48lSQ)** (I personally love the Fira font-face, and highly suggest using it)
-- Enable **Anti-aliased**
 
 **Text Rendering**
 
