@@ -10,7 +10,7 @@
 
 The theme is based on the wonderfully made [ys](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/ys.zsh-theme) theme from the official [oh-my-zsh repo](https://github.com/robbyrussell/oh-my-zsh).
 
-1. Drop [`honukai.zsh-theme`](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.itermcolors) into the `~/.oh-my-zsh/themes/` directory
+1. Drop [`honukai.zsh-theme`](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.zsh-theme) into the `~/.oh-my-zsh/themes/` directory
 2. Change the theme variable name to `ZSH_THEME="honukai"` in `~/.zshrc`
 3. Reload ZSH with `source ~/.zshrc`
 
