@@ -38,6 +38,9 @@ ys_hg_prompt_info() {
 	fi
 }
 
+# Command exit code
+local exit_code='%(?.%{$terminfo[bold]$fg[green]%}.%{$terminfo[bold]$fg[red]%})'
+
 # Prompt format: \n # USER at MACHINE in DIRECTORY on git:BRANCH STATE [TIME] \n $
 PROMPT="
 %{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
@@ -49,7 +52,7 @@ PROMPT="
 ${hg_info}\
 ${git_info} \
 %{$fg[white]%}[%*]
-%{$terminfo[bold]$fg[red]%}→ %{$reset_color%}"
+${exit_code}→ %{$reset_color%}"
 
 if [[ "$USER" == "root" ]]; then
 PROMPT="
@@ -62,5 +65,5 @@ PROMPT="
 ${hg_info}\
 ${git_info} \
 %{$fg[white]%}[%*]
-%{$terminfo[bold]$fg[red]%}→ %{$reset_color%}"
+${exit_code}→ %{$reset_color%}"
 fi
