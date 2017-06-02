@@ -38,13 +38,14 @@ ys_hg_prompt_info() {
 	fi
 }
 
-# Pyenv virtualenv info
+# Active pyenv virtualenv
+# https://github.com/pyenv/pyenv-virtualenv
 local virtualenv_info='$(virt_prompt_info)'
 virt_prompt_info() {
-	if [ ! -z "${PYENV_VERSION}" ]; then
-		echo -n "%{$fg[white]%}with "
-		echo -n "%{$fg[blue]%}${PYENV_VERSION} "
-	fi
+        if [ ! -z "${PYENV_VIRTUAL_ENV}" ]; then
+                echo -n "%{$fg[white]%}with "
+                echo -n "%{$fg[blue]%}$(basename $PYENV_VIRTUAL_ENV) "
+        fi
 }
 
 # Prompt format: \n # USER at MACHINE in DIRECTORY on git:BRANCH STATE [TIME] \n $
